@@ -4,7 +4,7 @@ namespace Hcode;
 
 use Rain\Tpl;
 
-class page {
+class Page {
 
 	private $tpl;
 	private $options = [];
