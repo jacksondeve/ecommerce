@@ -4,7 +4,7 @@ namespace Hcode;
 
 use Rain\Tpl;
 
-class Page {
+class page {
 
 	private $tpl;
 	private $options = [];
@@ -21,7 +21,7 @@ class Page {
 
 		$config = array(
 		    
-		    "tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/ecommerce/views/",
+		    "tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/ecommerce/view/",
 		    "cache_dir"     => $_SERVER['DOCUMENT_ROOT']."/ecommerce/views-cache/",
 		    "debug"         => false
 		);

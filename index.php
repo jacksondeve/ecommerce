@@ -10,7 +10,7 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	$page = new Page();
+	$page = new page();
 	$page->setTpl("index");
 
 });
