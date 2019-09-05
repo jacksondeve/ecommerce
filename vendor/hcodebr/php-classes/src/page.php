@@ -21,8 +21,8 @@ class Page {
 
 		$config = array(
 		    
-		    "tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/ecommerce/view/",
-		    "cache_dir"     => $_SERVER['DOCUMENT_ROOT']."/ecommerce/views-cache/",
+		    "tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/view/",
+		    "cache_dir"     => $_SERVER['DOCUMENT_ROOT']."/views-cache/",
 		    "debug"         => false
 		);
 

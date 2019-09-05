@@ -1,4 +1,4 @@
-<h1>Home Page</h1>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><h1>Home Page</h1>
    
 <div class="slider-area">
     <!-- Slider -->
