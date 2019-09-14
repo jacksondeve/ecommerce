@@ -277,6 +277,18 @@ $app->get("/admin/categories/:idcategory/delete", function($idcategory){
 	
 });
 
+$app->get("/categories/:idcategory", function($idcategory){
+	$category = new category();
+
+	$category->get((int)$idcategory);
+
+	$page = new Page();
+	$page->setTpl("category", [
+		'category'=>$category->getvalues(),
+		'productss'=>[]
+	]);
+});
+
 $app->run();
 
  ?>
