@@ -18,7 +18,7 @@ class User extends Model {
         ));
         
         if(cont($results)=== 0 ){
-            throw new Exception("Usuarios ienexiste ou senha invalida");
+            throw new Exception("Usuarios inexiste ou senha invalida");
 
         }
         $data = $results[0];
@@ -33,7 +33,7 @@ class User extends Model {
 
             return $user;
         }else{
-            throw new Exception("Usuarios ienexiste ou senha invalida");
+            throw new Exception("Usuarios inexiste ou senha invalida");
 
         }
     }
